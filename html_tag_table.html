@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML 태그 표</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #333;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th>종류</th>
+        <th>구분</th>
+        <th>설명</th>
+        <th>특징</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;h1&gt;~&lt;h6&gt;</td>
+        <td>block</td>
+        <td>제목</td>
+        <td>숫자가 커질수록 중요도가 덜 함</td>
+      </tr>
+      <tr>
+        <td>&lt;p&gt;</td>
+        <td>block</td>
+        <td>문단</td>
+        <td>글을 묶어서 나타낸다</td>
+      </tr>
+      <tr>
+        <td>&lt;div&gt;</td>
+        <td>block</td>
+        <td>그룹 지정</td>
+        <td>콘텐츠 그룹화</td>
+      </tr>
+      <tr>
+        <td>&lt;strong&gt;<br>&lt;em&gt;</td>
+        <td>inline</td>
+        <td>강조</td>
+        <td>특정 문장이나 단어 강조<br>스크린 리더에서 강조해서 읽는다</td>
+      </tr>
+      <tr>
+        <td>&lt;a&gt;</td>
+        <td>inline</td>
+        <td>링크</td>
+        <td>링크 설정</td>
+      </tr>
+      <tr>
+        <td>&lt;span&gt;</td>
+        <td>inline</td>
+        <td>그룹화</td>
+        <td>인라인 요소를 그룹화</td>
+      </tr>
+      <tr>
+        <td>&lt;img&gt;</td>
+        <td>inline</td>
+        <td>이미지</td>
+        <td>이미지 삽입<br>빈요소 태그 (닫는 태그가 없음)</td>
+      </tr>
+      <tr>
+        <td>&lt;br&gt;</td>
+        <td>inline</td>
+        <td>줄 바꿈 태그</td>
+        <td>강조 줄바꿈<br>빈요소 태그<br>스크린 리더가 끊어서 읽는다</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
